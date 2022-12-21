@@ -1,0 +1,28 @@
+.Main{
+    height: 100vh;
+}
+.timeConatiner{
+    font-size: 10vw;
+    color: orange;
+}
+.bst{
+    border-radius: 50%;
+    font-size: 3vw;
+}
+.bsth{
+    border-radius: 50%;
+    font-size: 3vw;
+    display: none;
+}
+.laps{
+    font-size: x-large;
+}
+.lapscon{
+    height: 40px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.ref{
+    width:170px;
+    display: inline-block;
+}

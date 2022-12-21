@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg-dark text-light  Main p-lg-5">
+        <div id="timeConatiner" class="timeConatiner text-center">
+            <span id="minute" class="ref">00</span><span>:</span><span id="second" class="ref">00</span><span >:</span><span id="msecond" class="ref">00</span>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-secondary bst " style="margin-right: 20%;" id="lap">Lap</button>
+            <button type="button" class="btn btn-secondary bsth " style="margin-right: 20%;" id="reset">Reset</button>
+            <button type="button" class="btn btn-danger bst" id="start">Start</button>
+            <button type="button" class="btn btn-danger bsth" id="stop">Stop</button>
+        </div>
+        <center>
+        <div class="laps" style="margin-top:50px;width :400px ;overflow-y: scroll;height: 40vh;" id="lc">
+            <!--created by script-->
+        </div>
+    </center>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
